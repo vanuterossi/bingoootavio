@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #2623d6;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main section#cartelas {
+    width: 70%;
+    height: 86vh;
+    background-color: #1c8bb8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+main section#numeros {
+    width: 30%;
+    height: 86vh;
+    background-color: #1c8bb8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+section#cartelas div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 4vh;
+    background-color: #706C61;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timain {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+}
+
+#timain1 {
+    font-size: 50px;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+}
+
+#cartelab {
+    width: 90px;
+    height: 40px;
+    margin-top: 3px;
+    margin-right: 10px;
+    background-color: #299c34; 
+    color: #FFFFFF; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px; 
+}
+
+#cartelab:hover {
+    background-color: #00ff3c;
+}
+
+#cartelab2 {
+    width: 90px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color: #9c2929; 
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-radius: 15px;
+}
+
+#cartelab2:hover {
+background-color: #ff0000; 
+}
+
+
+.divCartela table {
+    border-collapse: collapse;
+    margin: 20px;
+    
+}
+
+.divCartela h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial;
+    justify-content: flex-start;
+}
+
+.divCartela th,
+.divCartela td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.divCartela th {
+    background-color: #899E8B;
+    color: #FFFFFF;
+}
+
+.divCartela td {
+    background-color: #FFFFFF;
+}
+
+#cartelas-container {
+    width: 70%;
+    height: 100vh;
+    overflow-y: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+section#cartelas div.divCartela {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cartelas-container::-webkit-scrollbar {
+    width: 8px; 
+}
+
+#cartelas-container::-webkit-scrollbar-thumb {
+    background-color: #999; 
+    border-radius: 4px; 
+}
+
+#cartelas-container::-webkit-scrollbar-thumb:hover {
+    background-color: #666; 
+}
+
+#cartelas-container::-webkit-scrollbar-track {
+    background-color: #eee; 
+    border-radius: 4px; 
+}
+
+.sortear-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+
+#sortear {
+    width: 90px;
+    height: 40px;
+    background-color: #299c34;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+#sortear:hover {
+    background-color: #00ff3c;
+}
+
+.divCartela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
